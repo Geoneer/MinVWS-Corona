@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Component Styles -->
+    <style name="Widget.App.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemTextColor">@color/white</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="boxBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="Widget.App.Button.Surface" parent="Widget.App.Button">
+        <item name="android:backgroundTint">?colorSurface</item>
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+    <style name="Widget.App.Button.Surface.Small" parent="Widget.App.Button.Small">
+        <item name="android:backgroundTint">?colorSurface</item>
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">56dp</item>
+        <item name="android:paddingEnd">56dp</item>
+        <item name="cornerRadius">26dp</item>
+    </style>
+
+    <style name="Widget.App.Button.Small" parent="Widget.App.Button">
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+    </style>
+
+    <style name="Widget.App.Toolbar.Surface" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="Widget.App.Button.Toggle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:insetBottom">2dp</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="App.TextAppearance.MaterialComponents.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="lineHeight">26sp</item>
+    </style>
+
+    <style name="App.TextAppearance.MaterialComponents.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="lineHeight">20sp</item>
+    </style>
+
+    <style name="App.TextAppearance.MaterialComponents.Subtitle1.Secondary" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="App.TextAppearance.MaterialComponents.Body2.Secondary" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="lineHeight">20sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="App.TextAppearance.MaterialComponents.Headline5.Montserrat" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="App.TextAppearance.MaterialComponents.Headline6.Montserrat" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="App.TextAppearance.MaterialComponents.Body1.Montserrat.Secondary" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+</resources>
